@@ -1,5 +1,6 @@
 {
   "name": "my-web-folio",
+  "homepage": "https://tony219y.github.io/tony219y-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +9,15 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "start": "vite preview",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.3.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "lucide-react": "^0.469.0",
     "react": "^18.3.1",

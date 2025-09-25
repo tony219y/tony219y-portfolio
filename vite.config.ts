@@ -7,4 +7,5 @@ export default defineConfig({
     noExternal: true,
   },
   plugins: [react()],
+  base: "/tony219y-portfolio"
 })
