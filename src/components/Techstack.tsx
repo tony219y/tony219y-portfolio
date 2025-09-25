@@ -8,7 +8,7 @@ type TechItemProps = {
 
 const TechItem = React.memo(({ name, type, image }: TechItemProps) => (
   <div className="flex w-full h-[100px] rounded-xl p-2 hover:scale-105 transition-all duration-300 hover:cursor-pointer hover:bg-white/20">
-    <div className="flex w-[80px] h-full bg-white rounded-xl p-2 max-md:w-[90px]">
+    <div className="flex w-[85px] h-full bg-white rounded-xl p-2 max-md:w-[90px]">
       <img
         src={image}
         alt={name}
@@ -26,11 +26,14 @@ const TechItem = React.memo(({ name, type, image }: TechItemProps) => (
 const techList: TechItemProps[] = [
   { name: "React", type: "Frontend Framework", image: "./react.png" },
   { name: "Svelte", type: "Frontend Framework", image: "./svelte.png" },
+  { name: "Next", type: "Frontend Framework", image: "./nextjs.png" },
   { name: "Node.js", type: "Backend Framework", image: "./nodejs.png" },
   { name: "PostgreSQL", type: "Database", image: "./postgresSQL.png" },
   { name: "JavaScript", type: "Programming Language", image: "./javascript.png" },
   { name: "TypeScript", type: "Programming Language", image: "./typescript.png" },
   { name: "Java", type: "Programming Language", image: "./java.png" },
+  { name: "Python", type: "Programming Language", image: "./python.png" },
+  { name: "Golang", type: "Programming Language", image: "./golang.png" },
   { name: "Tailwind", type: "CSS Framework", image: "./tailwind.png" },
 ];
 

@@ -10,7 +10,7 @@ function Landing() {
             <p className="text-white/40 text-xl font-light 2xl:text-lg max-md:text-sm">
               "Third-year student passionate about becoming a Fullstack Developer. 
               I'm really excited about mastering both Frontend and Backend development to create complete web applications from user interfaces to database systems.
-              I have experience with React, Svelte, TailwindCSS, Node, PostgreSQL etc. and I love picking up new technologies and constantly improving my skills."
+              I have experience with React, Next, Svelte, TailwindCSS, Node, PostgreSQL etc. and I love picking up new technologies and constantly improving my skills."
             </p>
 
           {/* Bottom Container */}

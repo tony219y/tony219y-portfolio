@@ -18,7 +18,7 @@ function Cardprofile() {
                 <div className="flex w-full h-full rounded-xl justify-center items-center 
                     bg-gradient-to-r from-black/30 via-black to-black/30 p-1">
                     <div className="flex w-full h-full bg-white rounded-xl p-1">
-                        <img src="./profile.png" alt="Profile picture of Akeanant Poomdeesittinon" 
+                        <img src="./profile2.png" alt="Profile picture of Akeanant Poomdeesittinon" 
                             className="w-full h-full object-cover rounded-xl hover:scale-105 transition-transform duration-300" />
                     </div>
                 </div>
