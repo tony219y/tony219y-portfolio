@@ -1,5 +1,6 @@
 
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import profile2 from "../assets/profile2.png";
 
 function Profile() {
 
@@ -18,8 +19,7 @@ function Profile() {
             <div className="flex flex-col w-full h-full rounded-xl justify-around items-center p-4 gap-2 z-10">
                 <div className="flex rounded-xl justify-center items-center">
                     <div className="flex w-full h-full bg-white rounded-xl p-1 justify-center items-center">
-                        <img src="./profile2.png" alt="Akeanant Poomdeesittinon" 
-                            className="w-full h-full object-cover rounded-xl max-xl:w-1/3 max-xl:h-1/3 max-md:w-full max-md:h-1/2" />
+                        <img src={profile2} alt="Akeanant Poomdeesittinon" className="w-full h-full object-cover rounded-xl max-xl:w-1/3 max-xl:h-1/3 max-md:w-full max-md:h-1/2" />
                     </div>
                 </div>
                 <h1 className="text-black text-2xl font-bold text-center max-md:text-xl">TONY219Y</h1>
